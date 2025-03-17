@@ -1,7 +1,8 @@
 # Sarcasm-detection
 Sarcasm detection from news headlines with CNN-SVM, CNN-LSTM-SVM and BERT based models
-<br/>
-![alt_text](images/11.PNG)
+![image](https://github.com/user-attachments/assets/bccfb7e3-df06-476a-a1b2-0fc72d03a84f)
+
+
 
 Sarcasm is the use of language that normally signifies the opposite in order to mock or convey contempt. 
 Sarcasm can be considered as expressing a bitter gibe or taunt. Sarcasm Detection task is an important task for many natural language processing tasks.
