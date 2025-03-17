@@ -32,12 +32,11 @@ Word Embeddings: word2vec vectors are employed as input. The vectors are of dime
 Pretrained embeddings are taken from https://www.kaggle.com/yekenot/fasttext-crawl-300d-2m
 
 # CNN-SVM Hybrid models (Sentiment-Sarcasm combination model also) 
-![alt_text](images/1.PNG)
-![alt_text](images/2.PNG)
-![alt_text](images/3.PNG)
-![alt_text](images/4.PNG)
-![alt_text](images/5.PNG)
-![alt_text](images/6.PNG)
+![image](https://github.com/user-attachments/assets/05596804-a9af-4354-959b-abc2274741a7)
+![image](https://github.com/user-attachments/assets/3143d02b-abbb-4540-a36b-69dbfc7d38b0)
+![image](https://github.com/user-attachments/assets/7545ad8d-43c0-4ba9-bf23-7d939ba079b4)
+D![image](https://github.com/user-attachments/assets/c5f21161-b566-40c3-9196-adbf992fa0e3)
+
 
 
 # 	Bi-Long short-term memory (LSTM)
@@ -50,14 +49,13 @@ processing and making predictions based on time series data, since there can be 
 to deal with the vanishing gradient problem that can be encountered when training traditional RNNs.
 Relative insensitivity to gap length is an advantage of LSTM over RNNs, hidden Markov models and other sequence learning methodsin numerous applications.\
 
-![alt_text](images/7.PNG)
-![alt_text](images/8.PNG)
+![image](https://github.com/user-attachments/assets/b60705e9-48b4-4230-85f7-05f62768f8f1)
+
 # BERT MODEL
 BERT is designed to pre-train deep bidirectional representations from unlabelled text by jointly conditioning on both left and right context in all layers. As a result, the pre-trained BERT model can be fine-tuned with just one additional output layer to create state-of-the-art models for a wide range of tasks, such as question answering and language inference, without substantial task-specific architecture modifications.
 BERT is conceptually simple and empirically powerful. It obtains new state-of-the-art results on eleven natural language processing tasks, including pushing the GLUE score to 80.5% (7.7% point absolute improvement), MultiNLI accuracy to 86.7% (4.6% absolute improvement), SQuAD v1.1 question answering Test F1 to 93.2 (1.5 point absolute improvement) and SQuAD v2.0 Test F1 to 83.1 (5.1 point absolute improvement).
+![image](https://github.com/user-attachments/assets/ea1538f1-22cd-4eef-a9f8-89c5816fdeea)
 
-![alt_text](images/9.PNG)
-![alt_text](images/10.PNG)
 
 # Conclusion
 LSTM are more effective in this sarcasm detection because LSTM being sequence model, the cell state is moved forward and backward while in case of CNN each word is localised and  independent of each other ie. Sequence of words converted into sequence of vectors which are then fed into CNN like an image by reshaping the Input vector, which doesn’t preserve the actual semantics. The weights of this embedding layer get trained after the training process. It uses Bidirectional LSTM because the later words might also affect meaning of previous words in sarcastic sentences, so Bidirectional LSTM ensures that cell information flows in both directions.
